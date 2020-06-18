@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Super Power </title>
+		<link rel="icon" type="image/png" href="css/img/hero_png.png"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/script.js"></script>
+	</head>
+	<body class="bd1">
+		<header>
+			<table align="center">
+				<tr align="center">
+					<td> 
+						<a href="start.html"><img src="css/img/logo1.png" id="logo"></a>
+					</td>
+				</tr> 
+			</table>
+		</header>
+		
+		<center>
+			<font id="chooseCardsTitle"><br>
+				..Choose 5 Cards..
+			</font><br><br>
+		</center>
+		<center>	
+			<img src="css/img/Cards2/hero2.png" onclick="ImageClicked(1)" id="card1" class="fronts">
+			<img src="css/img/Cards2/hero2.png" onclick="ImageClicked(2)" id="card2" class="fronts">
+			<img src="css/img/Cards2/hero2.png" onclick="ImageClicked(3)" id="card3" class="fronts">
+			<img src="css/img/Cards2/hero2.png" onclick="ImageClicked(4)" id="card4" class="fronts">
+			<img src="css/img/Cards2/hero2.png" onclick="ImageClicked(5)" id="card5" class="fronts"><br>
+			<img src="css/img/Cards2/hero2.png" onclick="ImageClicked(6)" id="card6" class="fronts">
+			<img src="css/img/Cards2/hero2.png" onclick="ImageClicked(7)" id="card7" class="fronts">
+			<img src="css/img/Cards2/hero2.png" onclick="ImageClicked(8)" id="card8" class="fronts">
+			<img src="css/img/Cards2/hero2.png" onclick="ImageClicked(9)" id="card9" class="fronts">
+			<img src="css/img/Cards2/hero2.png" onclick="ImageClicked(10)" id="card10" class="fronts">
+			<div>
+				<center>
+				<img src="css/img/Cards2/HiddenCards/aqua.jpg" id="hiddenCard1" class="hidden">
+				<img src="css/img/Cards2/HiddenCards/sups.jpg" id="hiddenCard2" class="hidden">
+				<img src="css/img/Cards2/HiddenCards/flash.jpg" id="hiddenCard3" class="hidden">
+				<img src="css/img/Cards2/HiddenCards/martian.jpg" id="hiddenCard4" class="hidden">
+				<img src="css/img/Cards2/HiddenCards/bats.jpg" id="hiddenCard5" class="hidden">
+				<img src="css/img/Cards2/HiddenCards/ww.jpg" id="hiddenCard6" class="hidden">
+				<img src="css/img/Cards2/HiddenCards/shazam.jpg" id="hiddenCard7" class="hidden">
+				<img src="css/img/Cards2/HiddenCards/hawck.gif" id="hiddenCard8" class="hidden">
+				<img src="css/img/Cards2/HiddenCards/gl.jpg" id="hiddenCard9" class="hidden">
+				<img src="css/img/Cards2/HiddenCards/Captainatom.jpg" id="hiddenCard10" class="hidden">
+			</div>
+			<div>
+				<font class="hiddenStats" id="stats1"> Card1</font>
+				<font class="hiddenStats" id="stats2"> Card2</font>
+				<font class="hiddenStats" id="stats3"> Card3</font>
+				<font class="hiddenStats" id="stats4"> Card4</font>
+				<font class="hiddenStats" id="stats5"> Card5</font>
+				<font class="hiddenStats" id="stats6"> Card6</font>
+				<font class="hiddenStats" id="stats7"> Card7</font>
+				<font class="hiddenStats" id="stats8"> Card8</font>
+				<font class="hiddenStats" id="stats9"> Card9</font>
+				<font class="hiddenStats" id="stats10"> Card10</font>
+			</div>
+			<button id="startFighting" onclick="StartFight()"> Start the fight</button>
+			<button id="useAttack" onclick="UseAttack()"> Attack</button>
+			<button id="useDefence" onclick="UseDefence()"> Defence</button>
+		</center>
+
+		<img src="css/img/download1.png" id="vs">
+	</body>
+</html>
